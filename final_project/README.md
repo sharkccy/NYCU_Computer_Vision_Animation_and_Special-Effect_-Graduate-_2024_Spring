@@ -20,4 +20,4 @@ Follow the upstream instructions in [final_project/CA-Final-Project/text2motion/
 - Skeletal losses are masked by motion length to avoid biasing shorter clips and are weighted by diffusion step (`alpha_bar`) to emphasize early denoising stability.
 - Symmetry and bone-variance terms help reduce foot sliding and limb length drift when jumping between text conditions.
 - Keep `diffusion_steps`, batch size, and sampler consistent between training and inference to maintain motion quality.
-- See [final_project/report.pdf](final_project/report.pdf) for detailed analysis, results, and comparisons.
+- See [group32_report.pdf](group32_report.pdf) for detailed analysis, results, and comparisons.
