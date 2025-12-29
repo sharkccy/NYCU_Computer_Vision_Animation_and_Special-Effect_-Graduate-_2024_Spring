@@ -1,7 +1,7 @@
 # NYCU Computer Animation 2024 Spring Final Project — Mofusion loss implementation
 
 StudentID: 110612117  
-Name: Chung-Yu Chang (張仲瑜)
+Name: Chung-Yu Chang (張仲瑜), 賴柏允
 
 ## Introduction
 We implement a MotionDiffuse-based text-to-motion generator with three MoFusion skeletal regularization. The model remains a DDPM over joint trajectories conditioned on text, but we add pose-space supervision, bone-length variance control, and left–right symmetry penalties to stabilize denoising and reduce artifacts such as bone stretching or asymmetric gait. Training and sampling still follow the original diffusion schedules, with configurable step counts and default settings surfaced through the option loader.
